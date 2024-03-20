@@ -1,0 +1,21 @@
+{
+  "name": "newastronaut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "next dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "latest",
+    "react":"latest",
+    "react-dom":"latest"
+  },
+  "devDependencies": {
+    "@types/node":"latest",
+    "@types/react":"latest",
+    "typescript":"latest"
+  }
+}
