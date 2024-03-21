@@ -4,18 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "next dev"
+    "start": "next dev",
+    "build": "next build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.14",
     "next": "latest",
-    "react":"latest",
-    "react-dom":"latest"
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "@types/node":"latest",
-    "@types/react":"latest",
-    "typescript":"latest"
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1",
+    "typescript": "latest"
   }
 }
