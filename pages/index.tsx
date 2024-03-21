@@ -1,9 +1,9 @@
 const Main = () => {
     return (
         <div className="h-full">
-            <div className="px-4 h-full bg-slate-950 flex flex-col">
-                <div className="bg-gray-200 mb-4">Header</div>
-                <div className="bg-gray-200 mb-4 bg-black">
+            <div className="px-4 h-full flex flex-col">
+                <div className="mb-4">Header</div>
+                <div className="mb-4 bg-black">
                     <div className='flex flex-row justify-evenly'>
                         <div className="flex flex-col">
                             <div className='text-white text-8xl'>
@@ -30,12 +30,24 @@ const Main = () => {
                         </div>
                     </div>
                     <div className="flex flex-col bg-white border border-gray-200 shadow-sm rounded-xl p-4 md:p-5 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 mx-4">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        <div className='flex flex-col'>
+                            <div>
+                                <img src='./app.svg' />
+                            </div>
+                            <div className="text-white">
+                                Native super-app + trading terminal
+                            </div>
+                        </div>
                     </div>
                     <div className="flex flex-col bg-white border border-gray-200 shadow-sm rounded-xl p-4 md:p-5 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 ml-4">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        <div className='flex flex-col'>
+                            <div>
+                                <img src='./app.svg' />
+                            </div>
+                            <div className="text-white">
+                                Native super-app + trading terminal
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="mb-2">
