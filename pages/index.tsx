@@ -1,3 +1,5 @@
+import { Box } from "@mui/material";
+import EngageSection from "../app/view/Landing/EngageSection";
 import Hero from "../app/view/Landing/Hero";
 
 const Main = () => {
@@ -95,7 +97,14 @@ const Main = () => {
         //         </div>
         //     </div>
         // </div>
+        <Box sx={{
+            background: "black",
+            padding: "30px",
+        }}>
         <Hero/>
+        <EngageSection/>
+        </Box>
+        
     )
 }
 export default Main;
