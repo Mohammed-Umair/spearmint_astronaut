@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import EngageSection from "../app/view/Landing/EngageSection";
 import Hero from "../app/view/Landing/Hero";
+import AboutUs from "../app/view/Landing/AboutUs";
 
 const Main = () => {
     return (
@@ -103,6 +104,7 @@ const Main = () => {
         }}>
         <Hero/>
         <EngageSection/>
+        <AboutUs/>
         </Box>
         
     )

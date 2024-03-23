@@ -40,14 +40,12 @@ const Hero = (props: Props) => {
               }}
             >
               <img
-                src="./whitelogo_horizontal1.png"
+                src="./Logo.png"
                 alt="email"
                 height="35px"
-                width="30px"
+                width="150px"
               />
-              <Typography variant="h6" color="#FFFFFF">
-                STRONAUT
-              </Typography>
+              
             </Box>
 
             <Box
