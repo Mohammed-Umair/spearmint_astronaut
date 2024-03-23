@@ -221,7 +221,7 @@ const EngageSection = (props: Props) => {
                     </Button>
                   </Box>
 
-                  <Box >
+                  <Box>
                     <Typography
                       sx={{
                         fontFamily: "BD Megatoya",
@@ -229,7 +229,6 @@ const EngageSection = (props: Props) => {
                         fontWeight: 600,
                         lineHeight: "60.9px",
                         letterSpacing: "-0.04em",
-                        // textColor: "linear-gradient(92.69deg, #FFFFFF 53.23%, rgba(255, 255, 255, 0) 144.22%)",
                         backgroundcolor: "primary",
                         backgroundImage: `linear-gradient(92.69deg, #FFFFFF 53.23%, rgba(255, 255, 255, 0) 144.22%)`,
                         backgroundSize: "100%",
@@ -241,9 +240,9 @@ const EngageSection = (props: Props) => {
                     >
                       Engage
                     </Typography>
-                    <Typography  
+                    <Typography
                       sx={{
-                        marginTop:"50px",
+                        marginTop: "50px",
                         fontFamily: "Poppins",
                         fontSize: "26px",
                         fontWeight: 500,
@@ -264,7 +263,7 @@ const EngageSection = (props: Props) => {
                     </Typography>
                     <Typography
                       sx={{
-                        marginTop:"20px",
+                        marginTop: "20px",
                         fontFamily: "Poppins",
                         fontSize: "20px",
                         fontWeight: 500,
@@ -272,8 +271,7 @@ const EngageSection = (props: Props) => {
                         letterSpacing: "-0.04em",
                         // textColor: "linear-gradient(92.69deg, #FFFFFF 53.23%, rgba(255, 255, 255, 0) 144.22%)",
                         backgroundcolor: "primary",
-                     color:"   rgba(255, 255, 255, .6)",
-                        
+                        color: "   rgba(255, 255, 255, .6)",
                       }}
                     >
                       Lorem Ipsum is simply dummy text of the printing and

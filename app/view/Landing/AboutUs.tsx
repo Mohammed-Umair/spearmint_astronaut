@@ -1,6 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 import useIsMobile from "../../../hooks/useIsMobile";
+import LeftShadow from "../../Components/Common/LeftShadow";
 
 type Props = {};
 
@@ -9,8 +10,8 @@ const AboutUs = (props: Props) => {
   return (
     <Box
       sx={{
-        padding: "20px 30px",
-        height: isMobile ? "auto" : "700px",
+        padding: "20px 30px ",
+        height: isMobile ? "auto" : "650px",
       }}
     >
       <Grid
@@ -278,6 +279,9 @@ const AboutUs = (props: Props) => {
             </Box>
           </Box>
         </Grid>
+        <Box position="absolute" left="-100px" bottom="-80px">
+          <LeftShadow />
+        </Box>
       </Grid>
     </Box>
   );
